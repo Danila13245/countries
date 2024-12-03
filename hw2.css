@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.main-container{
+    height: 600px;
+    width: 500vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    animation-name: movement;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.made-by{
+    text-align: center;
+}
+
+.pictures{
+    width: 100vw;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+p{
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.country{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.country details{
+    text-align: left;
+    font-size: 35px;
+    margin-top: 25px;
+    
+}
+
+.country details summary{
+    margin-left: 100px;
+
+}
+
+
+.flag{
+    width: 30px;
+    height: 20px;
+}
+
+
+
+.title{
+    width: 90vw;
+}
+
+
+@keyframes movement{
+    0%{
+        left: 0
+    }
+    
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100vw;
+    }
+
+    45%{
+        left: -100vw;
+    }
+
+    50%{
+        left: -200vw;
+    }
+
+    70%{
+        left: -200vw;
+    }
+
+    75%{
+        left: -300vw;
+    }
+
+    95%{
+        left: -300vw;
+    }
+
+    
+    100%{
+        left: -400vw;
+    }
+}
